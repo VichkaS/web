@@ -2,11 +2,12 @@
 {
     max-width: 1000px;
 }
-.no_padding
+.columns
 {
     padding-left: 0;
     padding-right: 0;
 }
+
 /* --top panel-- */
 .top_panel_bg
 {
@@ -86,9 +87,9 @@
     background: #93bfda url(../img/header_bg.png) center center no-repeat;
     background-size: cover;
 }
-.logo
+.header
 {
-    padding: 20px 0 22px 0;
+    padding: 20px 0 22px 20px;
 }
 .header_date
 {
@@ -102,6 +103,10 @@
     color: #2e699b;
     text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
+.currency_list
+{
+    padding-left: 20px;
+}
 .currency_value
 {
     color: #000;
@@ -109,5 +114,158 @@
 .currency_change
 {
     color: #390;
+}
+.weather
+{
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+.weather_head
+{
+    color: #f80;
+    vertical-align: middle;
+    background: url(../img/info.png) 0 0 no-repeat;
+    font-size: 10px;
+    height: 18px;
+    line-height: 18px;
+    display: inline-block;
+    padding: 0 6px 0 3px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.weather_local
+{
+    font: normal 13px "DINCondensedWeb", "Arial Narrow", Arial;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0 5px;
+    
+}
+.weather_icon
+{
+    background: url(../img/weather-ico.png) 0 -4551px no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wheather_temp
+{
+    font: normal 13px "DINCondensedWeb", "Arial Narrow", Arial;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 5px;
+}
+.social
+{
+    margin: 0;
+}
+.social li
+{
+    background: url(../img/social_list.png) 0 0 no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 0 0 2px;;
+}
+.social a
+{
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+.social .yt:hover
+{
+    background-position: 0 -16px;
+}
+.social .fb
+{
+    background-position: -21px 0;
+}
+.social .fb:hover
+{
+    background-position: -21px -16px;
+}
+.social .vk
+{
+    background-position: -42px 0;
+}
+.social .vk:hover
+{
+    background-position: -42px -16px;
+}
+.social .tw
+{
+    background-position: -63px 0;
+}
+.social .tw:hover
+{
+    background-position: -63px -16px;
+}
+.social .gp
+{
+    background-position: -84px 0;
+}
+.social .gp:hover
+{
+    background-position: -84px -16px;
+}
+.social .fsq
+{
+    background-position: -105px 0;
+}
+.social .fsq:hover
+{
+    background-position: -105px -16px;
+}
+.social .ig
+{
+    background-position: -126px 0;
+}
+.social .ig:hover
+{
+    background-position: -126px -16px;
+}
+.social .flash
+{
+    background-position: -147px 0;
+}
+.social .flash:hover
+{
+    background-position: -147px -16px;
+}
+.social .ok
+{
+    background-position: -168px 0;
+}
+.social .ok:hover
+{
+    background-position: -168px -16px;
+}
+input.search
+{
+    height: 23px;
+    border: 0;
+    margin: 0;
+}
+
+.search_button
+{
+    background: url(../img/search4.png) -1px 0 no-repeat;
+    width: 5px;
+    height: 22px;
+    overflow: hidden;
+    border: 0;
+    float: left;
+}
+
+.ria_services
+{
+    font: normal 11px "DINCondensedWeb", "Arial Narrow", Arial;
+    color: #2e699b;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    text-decoration: underline;
+    padding-left: 2px;
 }
 /* --/header-- */
