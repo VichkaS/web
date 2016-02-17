@@ -89,11 +89,11 @@
 }
 .header
 {
-    padding: 20px 0 22px 20px;
+    padding: 18px 22px;
 }
 .header_date
 {
-    font: normal 13px "DINCondensedWeb", "Arial Narrow", Arial;
+    font: normal 11px "DINCondensedWeb", "Arial Narrow", Arial;
     color: #fff;
     font-weight: 600;
 }
@@ -105,7 +105,7 @@
 }
 .currency_list
 {
-    padding-left: 20px;
+    padding: 1px 15px;
 }
 .currency_value
 {
@@ -118,7 +118,12 @@
 .weather
 {
     padding-bottom: 5px;
-    margin-right: 20px;
+}
+
+.weather a
+{
+    float: right;
+    line-height: 0;
 }
 .weather_head
 {
@@ -155,8 +160,9 @@
     font: normal 13px "DINCondensedWeb", "Arial Narrow", Arial;
     color: #fff;
     font-weight: 600;
-    padding: 0 5px;
+    padding-left: 5px;
 }
+
 .social
 {
     margin: 0;
@@ -248,7 +254,10 @@ input.search
     border: 0;
     margin: 0;
 }
-
+.search label
+{
+    display: 
+}
 .search_button
 {
     background: url(../img/search4.png) -1px 0 no-repeat;
@@ -261,11 +270,15 @@ input.search
 
 .ria_services
 {
-    font: normal 11px "DINCondensedWeb", "Arial Narrow", Arial;
+    font: normal 10px "DINCondensedWeb", "Arial Narrow", Arial;
     color: #2e699b;
     text-shadow: 0 1px rgba(255, 255, 255, 0.5);
     font-weight: 600;
     text-decoration: underline;
     padding-left: 2px;
+}
+.ria_services a
+{
+     color: #2e699b;
 }
 /* --/header-- */
