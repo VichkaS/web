@@ -282,3 +282,44 @@ input.search
      color: #2e699b;
 }
 /* --/header-- */
+
+/* --top_menu-- */
+.navigator
+{
+    background-color: #333333;
+}
+.top_menu ul
+{
+    list-style: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover 
+{
+    background-color: #555555;
+    background: #f1f1f1; 
+}
+.top-bar-section li:not(.has-form) a:not(.button)
+{
+   line-height: 2.0rem;
+    padding: 0 12px;
+}
+.navigator_sub_system
+{
+    background-color: #f1f1f1;
+}
+.navigator_sub_system li
+{
+    display: inline-block;
+    padding: 5px 10px 5px 0;
+}
+.navigator_sub_system li a
+{
+    color: #000000;
+    font-size: 12px;
+}
+.navigator_sub_system li a:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+/* --/top_menu-- */
