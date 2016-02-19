@@ -383,4 +383,47 @@ input.search
     background: url(../img/ico.png) 0 -3041px no-repeat;
 }
 
+.news_text
+{
+    background-color: #000000;
+}
+
+.news_text .item h3
+{
+    font-size: 20px;
+    font-family: "DINCondensedWeb", "Arial Narrow", Arial;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 14px 17px 7px 20px;
+}
+.news_text a :hover
+{
+    color: #858f97;
+}
+.news_rubric .time span
+{
+    color: #858f97;
+    font-size: 13px;
+    font-weight: bold;
+}
+.time
+{
+    padding-left: 20px;
+}
+.news_rubric .time a
+{
+    color: #f80;
+    font-size: 12px;
+    font-weight: bold;
+}
+.news_rubric .time a:hover
+{
+    color: #858f97;
+}
+.news_upd
+{
+    color: #ffffff;
+    font: normal 11px/15px Arial, Helvetica, sans-serif;
+    padding-right: 7px;
+}
 /* --/content-- /*
