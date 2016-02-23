@@ -89,23 +89,32 @@
 }
 .header
 {
-    padding: 18px 22px;
+    padding: 16px 22px 12px 22px;
 }
 .header_date
 {
-    font: normal 11px "DINCondensedWeb", "Arial Narrow", Arial;
+    font: normal 12px "PFDinCondensedRegular", Arial;
     color: #fff;
-    font-weight: 600;
+    /*font-weight: 600;*/
+    letter-spacing: 1px;
 }
-
+.date
+{
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
 .header_date .date, .logo_text, .currency_name, .currency_date
 {
     color: #2e699b;
-    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+    /*text-shadow: 0 1px rgba(255, 255, 255, 0.5);*/
+}
+.logo_img
+{
+    margin-right: 15px;
 }
 .currency_list
 {
-    padding: 1px 15px;
+    font-size: 11px;
+    padding-top: 2px;
 }
 .currency_value
 {
@@ -130,19 +139,19 @@
     color: #f80;
     vertical-align: middle;
     background: url(../img/info.png) 0 0 no-repeat;
-    font-size: 10px;
+    font-size: 11px;
     height: 18px;
     line-height: 18px;
     display: inline-block;
-    padding: 0 6px 0 3px;
-    font-weight: 600;
+    padding: 1px 6px 0 3px;
     margin-left: 5px;
+    font-family: "PFDinCondensedRegular";
+    letter-spacing: 0.7px;
 }
 .weather_local
 {
-    font: normal 13px "DINCondensedWeb", "Arial Narrow", Arial;
+    font: normal 14px "PFDinCondensedRegular", "Arial Narrow", Arial;
     color: #fff;
-    font-weight: 600;
     text-decoration: underline;
     padding: 0 5px;
     
@@ -157,9 +166,8 @@
 }
 .wheather_temp
 {
-    font: normal 13px "DINCondensedWeb", "Arial Narrow", Arial;
+    font: normal 14px "PFDinCondensedRegular", "Arial Narrow", Arial;
     color: #fff;
-    font-weight: 600;
     padding-left: 5px;
 }
 
@@ -254,10 +262,7 @@ input.search
     border: 0;
     margin: 0;
 }
-.search label
-{
-    display: 
-}
+
 .search_button
 {
     background: url(../img/search4.png) -1px 0 no-repeat;
@@ -270,12 +275,13 @@ input.search
 
 .ria_services
 {
-    font: normal 10px "DINCondensedWeb", "Arial Narrow", Arial;
+    font: normal 12px "PFDinCondensedRegular", "Arial Narrow", Arial;
     color: #2e699b;
     text-shadow: 0 1px rgba(255, 255, 255, 0.5);
-    font-weight: 600;
     text-decoration: underline;
     padding-left: 2px;
+    letter-spacing: 1px;
+    
 }
 .ria_services a
 {
@@ -303,8 +309,8 @@ input.search
 }
 .top-bar-section li:not(.has-form) a:not(.button)
 {
-   line-height: 2.0rem;
-    padding: 0 12px;
+   line-height: 2.0rem; 
+   /*padding: 0 12px;*/
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
     background-color: #555555;
@@ -313,8 +319,10 @@ input.search
 }
 .top-bar-section ul li > a
 {
-    color: #f1f1f1;
-    font-weight: bold;
+    color: #d3e2ee;
+    font-weight: 600 !important;
+    font: normal 17px/32px "PFDinCondensedRegular", "Arial Narrow", Arial;
+    letter-spacing: 1px;
 }
 .navigator_sub_system
 {
@@ -327,8 +335,8 @@ input.search
 }
 .navigator_sub_system li a
 {
-    color: #000000;
     font-size: 12px;
+    color: #000000;
 }
 .navigator_sub_system li a:hover
 {
@@ -386,12 +394,13 @@ input.search
 .news_text
 {
     background-color: #000000;
+    padding: 0 10px 10px 0
 }
 
 .news_text .item h3
 {
     font-size: 20px;
-    font-family: "DINCondensedWeb", "Arial Narrow", Arial;
+    font-family: "Arial Narrow", Arial;
     color: #ffffff;
     font-weight: bold;
     padding: 14px 17px 7px 20px;
@@ -400,23 +409,24 @@ input.search
 {
     color: #858f97;
 }
-.news_rubric .time span
+
+.news_rubric .time_news span
 {
     color: #858f97;
     font-size: 13px;
     font-weight: bold;
 }
-.time
+.time_news
 {
     padding-left: 20px;
 }
-.news_rubric .time a
+.news_rubric .time_news a
 {
     color: #f80;
     font-size: 12px;
     font-weight: bold;
 }
-.news_rubric .time a:hover
+.news_rubric .time_news a:hover
 {
     color: #858f97;
 }
@@ -424,6 +434,6 @@ input.search
 {
     color: #ffffff;
     font: normal 11px/15px Arial, Helvetica, sans-serif;
-    padding-right: 7px;
+    padding-top: 5px;
 }
 /* --/content-- /*
